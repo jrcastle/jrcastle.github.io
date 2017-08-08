@@ -21,8 +21,34 @@
       </div><!-- /.container -->
     <footer>
       <ul>
-	<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+	{% if site.email_username %}
+        <li>
+          <a href="mailto:{{ site.email_username }}">
+            <i class="fa fa-envelope"></i> Email
+          </a>
+        </li>
+        {% endif %}
+	{% if site.github_username %}
+	<li>
+	  <a href="https://github.com/{{ site.github_username }}">
+	    <i class="fa fa-github"></i> GitHub
+	  </a>
+	</li>
+	{% endif %}
+	{% if site.stackoverflow_username %}
+        <li>
+          <a href="https://stackoverflow.com/users/8065793/{{ site.stackoverflow_username }}">
+            <i class="fa fa-stack-overflow"></i> Stack Overflow
+          </a>
+        </li>
+        {% endif %}
+	{% if site.linkedin_username %}
+        <li>
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        {% endif %}
 	</ul>
       </footer>
     </body>
