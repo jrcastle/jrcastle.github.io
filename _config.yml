@@ -5,6 +5,8 @@ google_analytics:
 theme: jekyll-theme-slate
 
 name: James R. Castle
+plugins: ['jekyll-github-metadata']
+repository: jrcastle/EbyEAnalysis
 
 github_username:        jrcastle
 linkedin_username:      jrcastle90
