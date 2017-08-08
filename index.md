@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#header-1)Welcom, I'm James!
+# [](#header-1)Welcome, I'm James!
 
 <center>
   <img HEIGTH="320" WIDTH="240" src="assets/images/IMG_3118-1.JPG" class="img-responsive img-circle" alt="Oops!">
