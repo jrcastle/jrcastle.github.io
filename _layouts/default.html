@@ -40,26 +40,28 @@
     </div>
 
     <!-- FOOTER  -->
-    {% if site.email %}
-    <a href="mailto:jrcastle90@gmail.com">
-      <i class="fa fa-envelope"></i> Email
-    </a>
-    {% endif %}
-    {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}">
-      <i class="fa fa-github"></i> GitHub
-    </a>
-    {% endif %}
-    {% if site.stackoverflow_username %}
-    <a href="https://stackoverflow.com/users/8065793/{{ site.stackoverflow_username }}">
-      <i class="fa fa-stack-overflow"></i> Stack Overflow
-    </a>
-    {% endif %}
-    {% if site.linkedin_username %}
-    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-      <i class="fa fa-linkedin"></i> LinkedIn
-    </a>
-    {% endif %}
+    <center>
+      {% if site.email %}
+      <a href="mailto:jrcastle90@gmail.com">
+	<i class="fa fa-envelope"></i> Email    
+      </a>
+      {% endif %}
+      {% if site.github_username %}
+      <a href="https://github.com/{{ site.github_username }}">
+	<i class="fa fa-github"></i> GitHub    
+      </a>
+      {% endif %}
+      {% if site.stackoverflow_username %}
+      <a href="https://stackoverflow.com/users/8065793/{{ site.stackoverflow_username }}">
+	<i class="fa fa-stack-overflow"></i> Stack Overflow    
+      </a>
+      {% endif %}
+      {% if site.linkedin_username %}
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+	<i class="fa fa-linkedin"></i> LinkedIn    
+      </a>
+      {% endif %}
+    </center>
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
