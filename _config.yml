@@ -1,9 +1,5 @@
+title: Slate theme
+description: Slate is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-slate
-name: James R. Castle, Ph.D.
-
-markdown: kramdown
-
-github_username:        jrcastle
-linkedin_username:      jrcastle90
-stackoverflow_username: jrcastle90
-email:                  jrcastle90@gmail.com

@@ -198,6 +198,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-theme-slate
   jekyll-theme-time-machine
 
 BUNDLED WITH
