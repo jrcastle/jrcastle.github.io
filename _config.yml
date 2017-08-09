@@ -3,6 +3,7 @@ description: Physicist, data scientist, software developer, gamer
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
+markdown: maruku
 
 name: James R. Castle
 plugins: ['jekyll-github-metadata']
