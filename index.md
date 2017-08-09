@@ -16,6 +16,11 @@ data sets resulting from ultrarelativistic heavy-ion collisions recorded by the
 You can find more information on my dissertation
 [here](https://cds.cern.ch/record/2275797).
 
+My resume can be found 
+[here]({{ site.url }}/assets/files/JamesRCastle_ResumeAugust2017.pdf) 
+and you can learn more about me professionally at my 
+[LinkedIn profile](https://www.linkedin.com/in/jrcastle90).
+
 ## [](#header-2)Interests
 - Big Data and high-performance computing technologies
 - Automation through Unix/Linux shell and/or python scripting
