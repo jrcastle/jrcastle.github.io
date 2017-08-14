@@ -24,7 +24,7 @@ and, for the final-state spectra, is referred to elliptic flow.
     
 
 <center>
-  <img HEIGTH="325" WIDTH="308" src="{{ site.url }}/assets/images/Glauber.png" class="img-responsive img-circle" alt="Oops!">
+  <img HEIGTH="325" WIDTH="308" src="{{ site.url }}/assets/images/glauber.png" class="img-responsive img-circle" alt="Oops!">
   <img HEIGTH="325" WIDTH="289" src="{{ site.url }}/assets/images/Fireworks_q2.png" class="img-responsive img-circle" alt="Oops!">
   <br> Figure 1: ((\text{Left})) A Glauber simulation [7-9] of a PbPb collision at 
   $\sqrt{s_\text{NN}}=5.02$ TeV with a strong elliptic shape. 
