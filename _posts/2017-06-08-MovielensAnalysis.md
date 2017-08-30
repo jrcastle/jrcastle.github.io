@@ -5,9 +5,9 @@ use_math: true
 ---
 
 This is an ongoing project to analyze the 
-[1M MovieLense data set](https://grouplens.org/datasets/movielens/). 
+[1M MovieLens data set](https://grouplens.org/datasets/movielens/). 
 Inspiration for this project came from two places: First, I was 
-looking for a fun way to brush up on my python/numpy/pandas skills. I 
+looking for a fun way to brush up on my python/numpy/pandas skills because I 
 do most of my statistical programming in C/C++ and reserve python for 
 scripting. To prevent stagnation of my skills I wanted to start up a 
 python-based project and rely on modules I don't use on a daily basis. 

@@ -6,7 +6,7 @@ use_math: true
 
 This [software package](https://github.com/jrcastle/EbyEAnalysis) was 
 written over the span of my graduate career at the University of Kansas. 
-This repository contains code written in C, C++ and python that reads data 
+This repository contains code written in C, C++, and python that reads data 
 sets recorded by the CMS detector at the CERN LHC and returns physics insights 
 through plots. Key statistical techniques utilized in this analysis include:
 

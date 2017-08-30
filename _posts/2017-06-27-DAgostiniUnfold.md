@@ -8,25 +8,27 @@ Unfolding is a standard statistical technique that is used in a wide variety
 of fields from high energy physics to medical imaging.
 Most commonly, unfolding is used to remove detector resolution 
 effects from measurements. Detector resolution can be understood with the 
-following example. Within a PET scan, tomographic images (_e.g._, Fig. 1) 
+following example: 
+
+Within a PET scan, tomographic images (_e.g._, Fig. 1) 
 of the body are obtained by measuring back-to-back photons that are emitted 
-from positrons and electrons annihilating. There are two key ingredients in 
+from positrons and electrons annihilating within the body. There are two key ingredients in 
 this type of measurement that affect the quality of the reconstructed image: 
-the uncertainty on the position and time of the measured photons. We will 
+the uncertainties on the position and time of the measured photons. We will 
 focus on the position measurement for this example. Now, the detector that 
 is used to measure the photons has a finite granularity and there is a 
 nonzero probability that the position of the photon will be recorded as 
 somewhere other than where it truly was. This, in turn, will cause the 
-reconstructed image of the body to blur. This blur is the detector 
-resolution effect. 
+reconstructed image of the body to blur. This blur is also referred to as 
+detector resolution. 
 
 <center>
   <img HEIGTH="501" WIDTH="566" src="{{ site.url }}/assets/images/PET-image.jpg" class="img-responsive img-circle" alt="Oops!">
   <br> Figure 1: Example of a PET scan of the human brain
 </center>
 
-Apart from improving the detector itself, this resolution can be partially 
-removed using unfolding. The premise of this technique assumes that the 
+Apart from improving the detector itself, this resolution can be  
+removed partially by using unfolding. The premise of this technique assumes that the 
 ``true'' image, which can be represented by a probability distribution $p(T)$, 
 is the convolution of the measured distribution $p(O)$ and a response function 
 $p(O|T)$. The response function is a conditional probability that measures the 
@@ -48,7 +50,7 @@ image.
 The key statistical tool used in my research as a graduate student was unfolding. In 
 particular, I used the D'Agostini iterative flavor of unfolding, which is described 
 in Ref. [1]. In order to fully understand the inner workings of this method for 
-unfolding I wrote my own D'Agostini unfolder class in C++, which can be found
+unfolding, I wrote my own D'Agostini unfolder class in C++, which can be found
 [here](https://github.com/jrcastle/DAgostiniUnfold). 
 This class relies heavily on libraries from the ROOT software framework [2] and 
 cannot be run without it. Building this class was solely for educational purposes to 
